@@ -12,3 +12,22 @@ if validar_cpf(input_cpf)
 else
     puts "O CPF #{input_cpf} é inválido"
 end
+
+
+#Resolução da Professora
+# require 'cpf_cnpj'
+
+# def check_cpf(cpf_number)
+#     if CPF.valid?(cpf_number)
+#         return "O CPF informado é válido"
+#     else
+#         return "O CPF informado é inválido"
+#     end
+# end
+
+# print 'Digite seu cpf: '
+# cpf_number = gets.chomp.to_i
+
+# result = check_cpf(cpf_number)
+
+# puts result
